@@ -1,9 +1,7 @@
 node_modules
-.env
-.env*
 !.env.example
 !frontend/.env.example
-.env.local
+!frontend/.env.production
 .env.*.local
 .env.txt
 cache
@@ -11,3 +9,7 @@ artifacts
 coverage
 dist
 .system_generated
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
