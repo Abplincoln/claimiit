@@ -1,0 +1,36 @@
+{
+  "network": "BOT Chain Bohr Testnet",
+  "chainId": 968,
+  "rpcUrl": "https://rpc.bohr.life",
+  "explorerUrl": "https://scan.bohr.life",
+  "deployedAt": "2026-10-25T05:39:19.617Z",
+  "deployer": "0x4093dAfCC3f60B5491C6Cd694f07F03fDA86919a",
+  "contracts": {
+    "TestERC20": {
+      "address": "0x7Afa063DE43648d612a61eD40CB0D289f68bD0bA",
+      "deploymentTxHash": "0x7e9e5e3e95b80ef0d743c1c5173296e661f3bedef3a85f3fb2ca7ef5497a2611"
+    },
+    "Claimiit": {
+      "address": "0xc98B13d6ae131be797Eb62725Dd7c9CD42121dAe",
+      "deploymentTxHash": "0x9f7e3bfddc7aac626e0f30a486fe8d353d9481579777cba4d59e79394dc91318"
+    },
+    "ClaimiitFactory": {
+      "address": "0x942c6E7DEd92D0C7fd11502619e312EddE7CecB1",
+      "deploymentTxHash": "0xc8734fb60c12e50d3c10f25fb8b7b19965af4847c6a228e58af3ea900f79ae30",
+      "deployedAt": "2026-10-25T06:31:11.638Z"
+    }
+  },
+  "merkleRoot": "0x56260e4cacf1127a555fb155be7a5845c89ab63d38d45e9650f3ccff734bcc7f",
+  "transactions": {
+    "testTokenDeploy": "0x7e9e5e3e95b80ef0d743c1c5173296e661f3bedef3a85f3fb2ca7ef5497a2611",
+    "claimiitDeploy": "0x9f7e3bfddc7aac626e0f30a486fe8d353d9481579777cba4d59e79394dc91318",
+    "setMerkleRoot": "0xb5c801a20fa7d66b994e948786d46d620caf4ee765190a4986fe064e0b388695",
+    "mint": "0x0cdc408ca1efae7e0164eb41b7105bcaaf0f4590f86f8b69fc0671f7e570313b",
+    "fundContract": "0xcbf2950e5ee171e4a21fbfc1d84a40abf7d5443a915d095a0c8390d71cbc2bf8"
+  },
+  "funding": {
+    "fundedAmountCDT": "850",
+    "contractBalanceBaseUnits": "850000000000000000000"
+  },
+  "updatedAt": "2026-10-25T06:31:11.637Z"
+}

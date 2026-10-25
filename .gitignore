@@ -1,0 +1,13 @@
+node_modules
+.env
+.env*
+!.env.example
+!frontend/.env.example
+.env.local
+.env.*.local
+.env.txt
+cache
+artifacts
+coverage
+dist
+.system_generated
